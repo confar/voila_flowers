@@ -2,6 +2,7 @@ fastai>=2
 fastapi
 uvicorn>=0.12.3
 uvloop
+gunicorn
 torchvision==0.8.0
 ipython
 https://download.pytorch.org/whl/cpu/torch-1.7.0%2Bcpu-cp36-cp36m-linux_x86_64.whl
