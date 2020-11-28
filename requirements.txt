@@ -1,5 +1,9 @@
-voila
+voila>=0.2.4
 fastai>=2
 pillow<7
-packaging
+packaging>=20.4
 ipywidgets==7.5.1
+fastapi>=0.61.2
+pydantic>=1.7.2
+gunicorn>=20.0.4
+uvicorn>=0.12.3
