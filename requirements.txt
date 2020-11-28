@@ -2,7 +2,6 @@ fastai>=2
 fastapi
 uvicorn>=0.12.3
 uvloop
-gunicorn
 torchvision==0.8.0
 ipython
 httptools
