@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FlowerRecognizer</string>
+    <string name="flower_string">Flower: %s</string>
+    <string name="probability_string">Accuracy: %.3f</string>
+</resources>
