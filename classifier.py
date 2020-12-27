@@ -27,12 +27,16 @@ with open(folder / 'category_to_name.json') as json_file:
 
 
 def parent_label_to_name(o):
-    """Label `item` with the parent folder name."""
+    """
+    Label `item` with the parent folder name.
+    """
     return mapping[parent_label(o)]
 
 
 def load_learner(fname, cpu=True):
-    """Load a `Learner` object in `fname`, optionally putting it on the `cpu`"""
+    """
+    Load a `Learner` object in `fname`, optionally putting it on the `cpu`
+    """
     distrib_barrier()
     res = torch.load(fname, map_location='cpu' if cpu else None, pickle_module=pickle)
     if hasattr(res, 'to_fp32'):
